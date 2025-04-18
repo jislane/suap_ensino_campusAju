@@ -1,0 +1,40 @@
+                    <form action="./contato.html" class="form-contato" id="form" name="form">
+                        <h2 class="form-contato-titulo">Fale conosco</h2>
+                        <section class="form-contato-campos">
+                            <div class="form-contato-input-nome">
+                                <div class="form-contato-caixa-nome">
+                                    <div class="form-contato-elementos-nome">
+                                        <div class="form-contato-texto-nome">
+                                            <label class="form-contato-texto-label" for="nome">Nome</label>
+                                            <input
+                                                class="form-contato-texto-holder"
+                                                type="text"
+                                                size="30"
+                                                maxlength="80"
+                                                id="nome"
+                                                placeholder="Digite seu nome"
+                                                name="nome"
+                                            />
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-contato-input-mensagem">
+                                <div class="form-contato-caixa-mensagem">
+                                    <div class="form-contato-elementos-mensagem">
+                                        <textarea
+                                            class="form-contato-textarea"
+                                            cols="30"
+                                            rows="3"
+                                            maxlength="500"
+                                            id="mensagem"
+                                            placeholder="Escreva sua mensagem"
+                                            name="mensagem"
+                                        ></textarea>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                        <button class="form-contato-botao" type="submit" id="submit">Enviar Mensagem</button>
+                    </form>
+
